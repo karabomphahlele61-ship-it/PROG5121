@@ -16,7 +16,7 @@ public class Registration {
         Login login = new Login();
 
         // ===== REGISTRATION =====
-        String firstName = JOptionPane.showInputDialog("Enter name:");
+        String firstName = JOptionPane.showInputDialog("Enter first name:");
         String lastName = JOptionPane.showInputDialog("Enter last name:");
         String username = JOptionPane.showInputDialog("Enter username:");
         String password = JOptionPane.showInputDialog("Enter password:");
