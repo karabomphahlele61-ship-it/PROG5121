@@ -42,7 +42,7 @@ public class Login {
                                String firstName, String lastName) {
 
         if (!checkUserName(username)) {
-            return "Username is not correctly formatted; please ensure that your username contains an underscore and is no more than five characters in length.";
+            return "Username is not correctly formatted; ensure that your username contains an underscore and is no more than five characters in length.";
         }
 
         if (!checkPasswordComplexity(password)) {
